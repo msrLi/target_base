@@ -12,6 +12,8 @@ help:
 	@echo  "lsp_clean:      clean lsp"
 
 uboot:
+	echo "runing uboot"
+test:
 	# Build the binary for factory without encryt it
 	# Build the Second stage u-boot
 	rm -rf ${UBOOT_BUILD_OBJ_PATH}
